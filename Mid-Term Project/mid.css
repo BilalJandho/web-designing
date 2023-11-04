@@ -1,0 +1,20 @@
+.flex-container{
+    background-color: rgb(227, 115, 11);
+    height: 99px;
+}
+.con1{
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 4%;
+    flex: 2 1 100px;
+    flex-direction: row;
+    width: 90vw;   
+   }
+   h3{
+    text-align: center;
+   }
+   u1{
+    width: 100px;
+   }
