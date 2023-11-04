@@ -1,20 +1,297 @@
-.flex-container{
-    background-color: rgb(227, 115, 11);
-    height: 99px;
+*{
+    margin: 0;
+    padding: 0;
 }
-.con1{
+
+.navbar{
+    background-color: orangered;
+    height: 20px;
+    color: white;
+
+}
+.navbar_d1{
+    width: 90vw;
+    color: white;
+
+}
+.content_d1{
     display: flex;
-    background-color: aquamarine;
-    margin-top: 10px;
-    margin-left: 5px;
-    padding: 4%;
-    flex: 2 1 100px;
-    flex-direction: row;
-    width: 90vw;   
-   }
-   h3{
+    float: left;
+    margin: left 150px;
     text-align: center;
-   }
-   u1{
-    width: 100px;
-   }
+}
+
+.content_d1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+.content_d2 a{
+    display: flex;
+    float: right;
+    color: white;
+}
+.navbar_d2{
+    display: flex;
+    background-color: orangered;
+    height: 90px;
+    color: white;
+}
+#d1{
+    margin: 30px 20px 0px 40px;
+    color: white;
+}
+#d2{
+    margin: 37px 0px 0px 0px;
+    color: white;
+}
+#image{
+    width: 140px;
+    height: 63px;
+    margin-left: 166px;
+    margin-top: 10px;
+}
+#button{
+    text-decoration: none;
+    color: white;
+}
+
+#button::after{
+    content: '\e736';
+}
+
+#Login{
+    text-decoration: none;
+    margin: 0px 11px 0px 11px;
+    color: white;
+}
+#signup{
+    text-decoration: none;
+    margin: 0px 11px 0px 11px ;
+    color: white;
+}
+
+#input{
+    width: 630px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.body_d1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.body_d1 h3{
+    margin-right: 280px;
+    font-weight: 400px;
+}
+
+.body_d1 span a{
+    text-decoration: none;
+    color: darkcyan;
+}
+.form{
+    background-color: white;
+    box-shadow: 0px 23px 39px 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 33px 12px ;
+}
+
+#email label{
+    margin-bottom: 7px;
+}
+
+#email input{
+    width: 320px;
+    height: 22px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+#password{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 4px 12px ;
+}
+
+#password label{
+    margin-bottom: 7px;
+}
+#password input{
+    width: 320px;
+    height: 22px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+#form_div{
+    margin: 20px 100px 35px 0px;
+}
+
+#button_div{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#button_div button{
+    padding: 8px 109px 8px 109px;
+    border: 1px solid white;
+}
+
+.form_header{
+    display: grid;
+    justify-content: center;
+    margin-top: 35px;
+}
+#reset{
+    float: right;
+    text-decoration: none;
+    color: darkcyan;
+    font-size: small;
+    margin-top: 5px;
+}
+
+#log{
+    background-color: chocolate;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#facebook{
+    background-color: darkslateblue;
+    color: white;
+    margin-top: 10px;
+}
+
+#google{
+    background-color: brown;
+    color: white;
+    margin-top: 10px;
+}
+
+.bottom_sec{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 23px 39px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    padding: 70px;
+
+}
+
+.secdiv{
+    margin:0px 0px 0px 155px;
+}
+
+#customercare h4{
+    font-size: 25px;
+    font-weight: 400px;
+    color: blueviolet;
+}
+
+#customercare li{
+    margin-top: 8px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#makemoney h4{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+
+#makemoney li{
+    margin-top: 8px;
+    text-decoration: none;
+    list-style: none;
+}
+#payment h4{
+    margin-top: 15px;
+    font-size:  25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+#daraz h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+#daraz li{
+    margin-top: 8px;
+    text-decoration: none;
+    list-style: none;
+}
+#international h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+
+#international li{
+    margin-top: 8px;
+    text-decoration: none;
+    list-style: none;
+}
+#payment div{   
+    margin-top: 8px;
+    width: 50px;
+    font-size: small;
+    background-color: whitesmoke;
+}
+#payment img{
+    width: 50px;
+}
+
+#verify img{
+    margin-top: 8px;
+    width: 80px;
+}
+
+#verify h4{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+#deals h4{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+#QR{
+    margin-top: 8px;
+    width: 80px;
+}
+#App{
+    margin-left: -15px;
+    margin-top: 8px;
+    width: 140px;
+    height: 78px;
+}
+#social img{
+    margin-top: 8px;
+    width: 40px;
+}
+#social h4{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    color: blueviolet;
+}
+
