@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="mid.css">
         <title>Daraz</title>
     </head>
@@ -8,7 +11,7 @@
         <nav class="navbar">
             <div class="navbar_d1">
                 <div class="content_d1">
-                    <a href="#">Become" a seller</a>
+                    <a href="#">Become a seller</a>
                     <a href="#">Daraz Affiliate program</a>
                     <a href="#">Help and Support</a>   
                 </div>
@@ -18,31 +21,39 @@
             </div>
         </nav>
         <div class="navbar_d2">
-            <img src="daraz logo.png" alt="Darazlogo" id="img">
+            <img src="daraz logo.png" alt="Darazlogo" id="image">
             <div id="d1">
                 <span id="button">Catagories</span>
+                <input type="text" id="input">
+            </div>
+            <div id="d2">
+                <span id="before_login"></span>
                 <a href="#" id="Login">Login</a>
                 <span>|</span>
                 <a href="#" id="signup">Sign up</a>
             </div>
         </div>
         <div class="body_b1">
-            <h3>Welcome to Daraz! Please Login</h3>
+            <h3><marquee>Welcome to Daraz! Please Login</marquee></h3>
             <span>New Member?<a href="#">Register</a> here</span>
         </div>
         <section class="form header">
             <section class="form">
                 <div id="form_div">
                     <div id="email">
-                        <label for="email">Phone Number or email</label>
-                        <input type="text" placeholder="Please enter your password">
+                        <label type="email" for="email">Phone Number or email*</label>
+                        <input type="text" placeholder="Please enter your Phone Number or Email" name="email">
+                    </div>
+                    <div id="Password">
+                    <label for="password">Password*</label>
+                    <input type="password" placeholder="Please enter your password" name="password">
                     </div>
                     <a href="#" id="reset">Reset your Password</a>
                 </div>
                 <div id="button div">
-                    <button id="log">Login</button>
-                    <span>Or,login with</span>
-                    <button id="facebook">Facebook</button>
+                    <button id="log">Login</button></br>
+                    <span>Or,login with</span></br>
+                    <button id="facebook">Facebook</button></br>
                     <button id="google">Google</button>
                 </div>
             </section>
@@ -85,7 +96,7 @@
             </div>
             <div class="secdiv">
                 <div id="international">
-                    <h4>Draz international</h4>
+                    <h4>Daraz international</h4>
                     <li>Pakistan</li>
                     <li>Bangladesh</li>
                     <li>Srilanka</li>
@@ -95,9 +106,9 @@
                 <div id="payments">
                     <h4>Payment Methods</h4>
                     <div>Cash on deleviry</div>
-                    <img src="jazzcash.png" alt="JazzCash">
-                    <img src="mastyercard.png" alt="mystrecard">
-                    <img src="visacard.png" alt="visacard">
+                    <img id="j1" src="jazzcash.png" alt="JazzCash">
+                    <img id="m1" src="mastyercard.png" alt="Mster">
+                    <img id="v1" src="visacard.png" alt="Visa card">
                     <div id="verify">
                         <h4>Verified by</h4>
                         <img src="pci-dss-certified.png" alt="Certificate">
