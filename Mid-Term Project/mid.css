@@ -209,10 +209,11 @@
 .secdiv{
     margin:0px 0px 0px 155px;
 }
-#customercare h4{
+#customercare{
+    margin-top: 15px;
     font-size: 25px;
     font-weight: 400px;
-    color: blueviolet;
+    color: chocolate;
 }
 #customercare li{
     margin-top: 8px;
@@ -233,7 +234,7 @@
 #daraz h4{
     font-size: 25px;
     font-weight: 400;
-    color: blueviolet;
+    color: chocolate;
 }
 #daraz li{
     margin-top: 8px;
@@ -243,7 +244,7 @@
 #international h4{
     font-size: 25px;
     font-weight: 400;
-    color: blueviolet;
+    color: chocolate;
 }
 #international li{
     margin-top: 8px;
