@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(217, 225, 230);
+}
 *{
     margin: 0;
     padding: 0;
@@ -105,6 +108,7 @@
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    
 }
 .body_d1 h3{
     margin-right: 280px;
@@ -116,11 +120,13 @@
 }
 .form{
     background-color: white;
-    box-shadow: 0px 23px 39px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 23px 39px 10px rgba(0, 0, 0, 0.1); */
     width: fit-content;
+    height: fit-content;
     display: flex;
     justify-content: center;
     padding: 100px;
+    
 }
 #email{
     display: flex;
@@ -154,6 +160,8 @@
 }
 #form_div{
     margin: 20px 100px 35px 0px;
+    height: 50px;
+    width: 300px;
 }
 #button_div{
     margin: 20px 0px 0px 0px;
@@ -168,6 +176,7 @@
     display: grid;
     justify-content: center;
     margin-top: 35px;
+
 }
 #reset{
     float: right;
@@ -208,11 +217,12 @@
 }
 .secdiv{
     margin:0px 0px 0px 155px;
+    margin: right 11px;
 }
-#customercare{
-    margin-top: 15px;
+
+#customercare h5{
     font-size: 25px;
-    font-weight: 400px;
+    font-weight: 400;
     color: chocolate;
 }
 #customercare li{
@@ -220,18 +230,18 @@
     text-decoration: none;
     list-style: none;
 }
-#makemoney h4{
+#makemoney h5{
     margin-top: 15px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
-    color: blueviolet;
+    color: chocolate;
 }
 #makemoney li{
     margin-top: 8px;
     text-decoration: none;
     list-style: none;
 }
-#daraz h4{
+#daraz h5{
     font-size: 25px;
     font-weight: 400;
     color: chocolate;
@@ -241,7 +251,7 @@
     text-decoration: none;
     list-style: none;
 }
-#international h4{
+#international h5{
     font-size: 25px;
     font-weight: 400;
     color: chocolate;
@@ -251,11 +261,11 @@
     text-decoration: none;
     list-style: none;
 }
-#payment h4{
+#payment h5{
     margin-top: 15px;
     font-size:  25px;
     font-weight: 400;
-    color: blueviolet;
+    color: chocolate;
 }
 #payment div{   
     margin-top: 8px;
@@ -270,17 +280,17 @@
     margin-top: 8px;
     width: 80px;
 }
-#verify h4{
+#verify h5{
     margin-top: 15px;
     font-size: 25px;
     font-weight: 400;
-    color: blueviolet;
+    color: chocolate;
 }
-#deals h4{
+#deals h5{
     margin-top: 15px;
     font-size: 25px;
     font-weight: 400;
-    color: blueviolet;
+    color: chocolate;
 }
 #QR{
     margin-top: 8px;
@@ -294,13 +304,17 @@
 }
 #social img{
     margin-top: 8px;
-    width: 40px;
+    width: 300px;
+    height: 70px;
 }
-#social h4{
-    margin-top: 15px;
-    font-size: 25px;
-    font-weight: 400;
-    color: blueviolet;
+#social h5{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   font-size: 25px;
+   font-weight: 400;
+   color:chocolate;
+
 }
 #j1{
     height: 50px;
@@ -324,3 +338,4 @@
     width: 100px;
     justify-content: right;
 }
+
