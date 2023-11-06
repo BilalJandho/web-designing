@@ -150,6 +150,7 @@ body{
 }
 #password label{
     margin-bottom: 7px;
+    
 }
 #password input{
     width: 320px;
@@ -162,6 +163,10 @@ body{
     margin: 20px 100px 35px 0px;
     height: 50px;
     width: 300px;
+}
+.form header{
+    height: 90px;
+    width: 90px;
 }
 #button_div{
     margin: 20px 0px 0px 0px;
