@@ -4,6 +4,7 @@ body{
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .navbar{
@@ -177,6 +178,7 @@ body{
     padding: 8px 109px 8px 109px;
     border: 1px solid white;
 }
+
 .form_header{
     display: grid;
     justify-content: center;
