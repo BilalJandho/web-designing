@@ -86,18 +86,40 @@
 //     }
 // }
 
-for(var i=1; i<=10; i++){
-    switch (i){
-        case 1:
-        console.log('gold medal')
-        break
-        case 2:
-            console.log('silver medal')
-        break
-        case 3:
-            console.log('Bronze medal')
-        break
-        default:
-            console.log(i)
-    }
+// for(var i=1; i<=10; i++){
+//     switch (i){
+//         case 1:
+//         console.log('gold medal')
+//         break
+//         case 2:
+//             console.log('silver medal')
+//         break
+//         case 3:
+//             console.log('Bronze medal')
+//         break
+//         default:
+//             console.log(i)
+//     }
+// }
+
+// function addTwoNums(){
+//     var a=10;
+//     var b=20;
+//     var c= a+b;
+//     console.log(c);
+// }
+// addTwoNums();
+
+// function addTwoNums(){
+//     var a=10;
+//     var b=60;
+//     var c= a+b;
+//     console.log(c);
+// }
+// addTwoNums();
+
+function addTwoNums(a,b){
+    var c=a+b;
+    console.log(c);
 }
+addTwoNums(3,3);
