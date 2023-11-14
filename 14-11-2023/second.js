@@ -118,8 +118,35 @@
 // }
 // addTwoNums();
 
-function addTwoNums(a,b){
-    var c=a+b;
-    console.log(c);
+// function addTwoNums(a,b){
+//     var c=a+b;
+//     console.log(c);
+// }
+// addTwoNums(3,3);
+
+// array
+// var train1 =["wheat","barley"," veges","salt","rocks"];
+// console.log(train1);
+// // console.log(train1[1]);
+// console.log(typeof(train1));
+
+// function listArrayItems(arr){
+//     for (var i=0; i<arr.length;i++){
+//         console.log(arr[i])
+//     }
+// }
+// var colors=['red','orange','yellow','pink','green'];
+// listArrayItems(colors);
+
+
+// quiz
+function letterfinder(word,match){
+    for(let i=1; i<word.length; i++){
+        if(word[i] === match){
+            console.log('found the',match,'at',i);
+        }else{
+            console.log('---NO match found at',i);
+        }
+    }
 }
-addTwoNums(3,3);
+letterfinder("nestle", 'e');
