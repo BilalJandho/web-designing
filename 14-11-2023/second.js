@@ -140,13 +140,55 @@
 
 
 // quiz
-function letterfinder(word,match){
-    for(let i=1; i<word.length; i++){
-        if(word[i] === match){
-            console.log('found the',match,'at',i);
-        }else{
-            console.log('---NO match found at',i);
-        }
-    }
+// function letterfinder(word,match){
+//     for(let i=1; i<word.length; i++){
+//         if(word[i] === match){
+//             console.log('found the',match,'at',i);
+//         }else{
+//             console.log('---NO match found at',i);
+//         }
+//     }
+// }
+// letterfinder("nestle", 'e');
+
+
+//  var table={
+//     legs:3,
+//     color:"brown",
+//     priceUSD:100,
+//  }
+//  console.log(table);
+//  console.log(table.color);
+ 
+// var car={};
+// car.color="red";
+// car["color"]="green";
+// car["speed"]=200;
+// car.speed=100;
+// console.log(car);
+
+// var arrOfKeys{'speed','altitude','color'}
+// var drone={
+//     speed:100,
+//     altitude:200,
+//     color:"red"
+// }
+// for(var i=0; i<arrOfKeys.length;i++){
+//     console.log(drone[arrOfKeys[i]]);
+// }
+
+// var fruits=[];
+// fruits.push("apple");
+// fruits.push("pear");
+// fruits.pop();
+// console.log(fruits);
+
+function arrayBuilder(one,two,three) {
+    var arr[];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    return arr;
 }
-letterfinder("nestle", 'e');
+var simpleArr=arrayBuilder('apple','pear','plum');
+console.log(simpleArr);
