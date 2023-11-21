@@ -4,7 +4,7 @@
         <title>My Todo App</title>
     </head>
     <body>
-        <button>Press Me</button>
+        <!-- <button>Press Me</button>
         <script>
             let todo1 = 'Get Groceries';
             let todo2 = 'Wash Car';
@@ -18,6 +18,35 @@
             element = document.createElement('div');
             element.innerText = todo3;
             document.body.appendChild(element);
+        </script> -->
+        <!-- <button>Press me</button>
+        <script>
+            let todo1 = 'Get Groceries';
+            let todo2 = 'Wash Car';
+            let todo3 = 'Make Dinner';
+            function bilal(b){
+                let element= document.createElement('div')
+                element.innerText=b;
+                document.body.appendChild(element);}
+                bilal(todo1);
+                bilal(todo2);
+                bilal(todo3);
+            
+        </script>     -->
+
+        <button>Press me</button>
+        <script>
+            let todos=['Get Groceries', 'wash car' , 'dinner']
+            todos.push('Another todo');
+            todos.push(' Another todo');
+            function bilal(b){
+            let element = document.createElement('div');
+            element.innerText = b;
+            document.body.appendChild(element);
+            }
+            bilal(todos); 
+            todos.push(' bilal');
+            bilal(todos);
         </script>
     </body>
 </html>
