@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>My Todo App</title>
     </head>
     <body>
-        <!-- <button>Press Me</button>
+        <button>Press Me</button>
         <script>
             let todo1 = 'Get Groceries';
             let todo2 = 'Wash Car';
@@ -34,9 +34,9 @@
             
         </script>     -->
 
-        <button>Press me</button>
-        <script>
-            let todos=['Get Groceries', 'wash car' , 'dinner']
+        <!-- <button>Press me</button> -->
+        <!-- <script>
+            let todos=['Get Groceries', 'wash car' , 'dinner'];
             todos.push('Another todo');
             todos.push(' Another todo');
             function bilal(b){
@@ -47,6 +47,54 @@
             bilal(todos); 
             todos.push(' bilal');
             bilal(todos);
-        </script>
+
+        </script> -->
+    <!-- <script>
+        let todos=['Get Groceries', 'wash car' , 'dinner'];
+        todos.push('Another todo');
+        function bilal(b){
+        let element = document.createElement('div');
+        element.innerText = b;
+        document.body.appendChild(element);}
+        for(var i=0; i<=3; i++){
+            bilal(todos[i]) -->
+        <!-- } -->
+
+    <!-- <script>
+        let todo=['Get Groceries', 'wash car' , 'dinner'];
+        todos.push('Another todo');
+        todos.forEach(function(i){
+let element=document.createElement('div');
+element.innerText=i;
+document.body.appendChild(element);
+        })
+    </script>
     </body>
+</html> --> 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>My todo app</title>
+</head>
+<body>
+    <button onclick="todos.push('new todo');">Press Me</button>
+    <script>
+        let todos =['get groceries', 'wash cars' , 'make dinner'];
+
+        todos.forEach(function (todoTitle){
+            let element=document.createElement('div');
+            element.innerText=todoTitle;
+            document.body.appendChild(element);
+        });
+
+        function addTodo(){
+            let textbox = document.getElementById('todo-title');
+            let titile = textbox.value;
+            todos.push(title);
+        }
+    </script>
+</body>
 </html>
